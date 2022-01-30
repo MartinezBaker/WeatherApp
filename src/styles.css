@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to left top, #e66465, #9198e5, lightblue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  font-family: sans-serif;
+  color: white;
+  margin: 5%;
+}
+
+.current-weather {
+  margin-left: 10%;
+  text-align: center;
+  color: white;
+  background-color: #9198e5;
+  border: solid white 2px;
+  border-radius: 20px;
+  padding: 2%;
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.link {
+  color: #ffffff;
+}
+
+li {
+  color: #e66465;
+}
+
+.temp {
+  font-size: 58px;
+  color: #e66465;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 3px;
+  width: 215px;
+}
+
+.no-alerts {
+  color: #e66465;
+  font-size: 12px;
+}
+
+.history-empty {
+  text-align: center;
+  font-size: 12px;
+  color: #e66465;
+}
+
+.alerts {
+  color: red;
+}
+
+.alert {
+  color: red;
+}
+
+.errmess {
+  color: red;
+}
